@@ -1,0 +1,18 @@
+@import "./color_palette";
+.App {
+  background: var(--background) !important;
+  //   background-color: red !important;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  width: 300px;
+  margin: auto;
+  box-shadow: 0px 0px 12px var(--border);
+  border-radius: 8px;
+  background-color: var(--form-bg);
+  color: var(--text-color);
+}

@@ -1,0 +1,19 @@
+:root {
+  --background: #d19292;
+  --text-primary: #000;
+  --text-secondary: #8e05c2;
+  --accent: #8e05c2;
+  --border: #333;
+  --form-bg: rgb(211, 204, 204);
+  --text-color: rgb(0, 0, 0);
+}
+
+[data-theme="dark"] {
+  --background: rgb(169, 2, 2);
+  --text-primary: #fff;
+  --text-secondary: #8e05c2;
+  --accent: #8e05c2;
+  --border: #808080;
+  --form-bg: #191919;
+  --text-color: rgb(255, 19, 19);
+}
