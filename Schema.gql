@@ -1,0 +1,23 @@
+scalar Decimal
+scalar DateTime
+
+# type Mutation {
+#   addDriver(input: CreateDriverCommandInput!): Int!
+# }
+
+# input CreateDriverCommandInput {
+#   employeeId: Int!
+#   licenseNo: String!
+#   licenseExpiryDate: DateTime!
+#   password: String!
+#   confirmPassword: String!
+# }
+
+type Query {
+  supplierTypes: [SupplierTypeDTO!]!
+}
+
+type SupplierTypeDTO {
+  id: Int!
+  name: String!
+}

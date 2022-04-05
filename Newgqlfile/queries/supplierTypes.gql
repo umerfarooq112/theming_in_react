@@ -1,0 +1,6 @@
+query supplierTypes{
+    supplierTypes{
+        id
+        name
+    }
+}
