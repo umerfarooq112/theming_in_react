@@ -12,6 +12,7 @@ import {
   useQuery,
   gql,
 } from "@apollo/client";
+import DeliveryScheduler from "./DeliveryScheduler";
 
 const client = new ApolloClient({
   uri: "http://3.109.130.89:8080/graphql/",
@@ -21,7 +22,7 @@ const client = new ApolloClient({
 ReactDOM.render(
   <ApolloProvider client={client}>
     <React.StrictMode>
-      <App />
+      <DeliveryScheduler />
     </React.StrictMode>
   </ApolloProvider>,
   document.getElementById("root")

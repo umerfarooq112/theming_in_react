@@ -1,18 +1,39 @@
 @import "./color_palette";
-.App {
-  background: var(--background) !important;
-  //   background-color: red !important;
+// .App {
+//   background: var(--background) !important;
+//   //   background-color: red !important;
+// }
+// .container {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   padding: 1.5rem;
+//   width: 300px;
+//   margin: auto;
+//   box-shadow: 0px 0px 12px var(--border);
+//   border-radius: 8px;
+//   background-color: var(--form-bg);
+//   color: var(--text-color);
+// }
+
+.main-list {
+  width: 90%;
+  padding: 20px 20px 0px 20px;
 }
-.container {
+
+.main-list > .header {
+  background-color: rgb(53, 210, 219);
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 1.5rem;
-  width: 300px;
-  margin: auto;
-  box-shadow: 0px 0px 12px var(--border);
-  border-radius: 8px;
-  background-color: var(--form-bg);
-  color: var(--text-color);
+}
+.h-item {
+  width: 20%;
+}
+
+.content {
+  background-color: aliceblue;
+  display: flex;
+}
+.m-item {
+  width: 20%;
 }
